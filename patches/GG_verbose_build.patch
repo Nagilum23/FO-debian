@@ -1,0 +1,24 @@
+From: Dmitry Smirnov <onlyjob@member.fsf.org>
+Date: Tue, 26 Mar 2013 22:00:33 +0100
+Subject: GG_verbose_build
+
+Enable verbose build.
+
+Forwarded: http://sourceforge.net/tracker/?func=detail&aid=3611821&group_id=75752&atid=544942
+---
+ FreeOrion/GG/CMakeLists.txt |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/FreeOrion/GG/CMakeLists.txt b/FreeOrion/GG/CMakeLists.txt
+index 7cb4599..f4fca80 100644
+--- a/FreeOrion/GG/CMakeLists.txt
++++ b/FreeOrion/GG/CMakeLists.txt
+@@ -5,7 +5,7 @@ enable_testing()
+ 
+ project(GiGi)
+ 
+-set(CMAKE_VERBOSE_MAKEFILE false)
++set(CMAKE_VERBOSE_MAKEFILE true)
+ 
+ ########################################
+ # Configuration                        #

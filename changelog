@@ -1,0 +1,15 @@
+freeorion (0.4.3+svn6594-1) UNRELEASED; urgency=low
+
+  [ Markus Koschany ]
+  * Initial release by Dmitry Smirnov and Markus Koschany.(Closes: #593339)
+
+  [ Debian Wheezy FreeOrion ]
+  * Update to rev 5857
+  * Update to rev 6281
+  * Update to rev 6342
+  * Update to rev 6582
+
+  [ Nagilum ]
+  * Update to rev 6594
+
+ -- Nagilum <orion@nagilum.org>  Wed, 01 Jan 2014 10:17:33 +0100

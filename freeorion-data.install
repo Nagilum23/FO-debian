@@ -1,0 +1,3 @@
+usr/default                     usr/share/games/freeorion
+debian/freeorion.png            usr/share/pixmaps
+debian/freeorion.xpm            usr/share/pixmaps

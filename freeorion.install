@@ -1,0 +1,6 @@
+debian/bin/*            usr/games
+usr/freeor*             usr/lib/freeorion
+usr/*.cfg               usr/lib/freeorion
+usr/lib/*.so            usr/lib/freeorion
+FreeOrion/*.cfg         usr/lib/freeorion
+FreeOrion/*.desktop     usr/share/applications
