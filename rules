@@ -14,8 +14,7 @@ override_dh_clean:
 
 override_dh_auto_build:
 	## generate icons
-	convert -monitor FreeOrion/FreeOrion.ico debian/freeorion.png
-	mv debian/freeorion-0.png debian/freeorion.png
+	cp FreeOrion/default/data/art/icons/FO_Icon_256x256.png debian/freeorion.png
 	convert -monitor -resize 32x32 debian/freeorion.png debian/freeorion.xpm
 	dh_auto_build
 
